@@ -338,7 +338,3 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
-
-# Ignore APPData folder
-**/AppData/*.mdf
-**/Appdata/*.ldf

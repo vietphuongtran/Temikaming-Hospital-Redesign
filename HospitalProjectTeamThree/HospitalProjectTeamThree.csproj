@@ -555,6 +555,14 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\aspnet-HospitalProjectTeamThree-20200312024020.mdf" />
+    <Content Include="App_Data\aspnet-HospitalProjectTeamThree-20200312024020_log.ldf">
+      <DependentUpon>aspnet-HospitalProjectTeamThree-20200312024020.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\DefaultConnection.mdf" />
+    <Content Include="App_Data\DefaultConnection_log.ldf">
+      <DependentUpon>DefaultConnection.mdf</DependentUpon>
+    </Content>
     <Content Include="bin\Antlr3.Runtime.dll" />
     <Content Include="bin\EntityFramework.dll" />
     <Content Include="bin\EntityFramework.SqlServer.dll" />
@@ -605,8 +613,7 @@
     <Content Include="Images\Room\private.jpg" />
     <Content Include="Images\Room\public.jpg" />
     <Content Include="Images\Room\semiprivate.jpg" />
-    <Content Include="obj\Debug\CSAutoParameterize\transformed\Views\Web.config" />
-    <Content Include="obj\Debug\CSAutoParameterize\transformed\Web.config" />
+    <Content Include="obj\Debug\CSAutoParameterize\original\Views\Web.config" />
     <Content Include="obj\Debug\HospitalProjectTeamThree.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\Package\PackageTmp\bin\Antlr3.Runtime.dll" />
     <Content Include="obj\Debug\Package\PackageTmp\bin\EntityFramework.dll" />
@@ -669,8 +676,6 @@
     <Content Include="Scripts\ckeditor\samples\toolbarconfigurator\font\fontello.woff" />
     <Content Include="Scripts\ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" />
     <Content Include="Scripts\ckeditor\skins\moono-lisa\readme.md" />
-    <Content Include="obj\Debug\CSAutoParameterize\original\Views\Web.config" />
-    <Content Include="obj\Debug\CSAutoParameterize\original\Web.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\ckeditor\adapters\jquery.js" />
     <Content Include="Scripts\ckeditor\build-config.js" />
@@ -1135,10 +1140,10 @@
     <Content Include="Views\Department\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="ERD\" />
     <Folder Include="Images\Event\" />
     <Folder Include="Images\GetWellCard\" />
+    <Folder Include="obj\Debug\CSAutoParameterize\transformed\" />
     <Folder Include="obj\Debug\Package\PackageTmp\ERD\" />
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="Wireframes\" />
