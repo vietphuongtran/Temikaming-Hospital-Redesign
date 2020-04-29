@@ -58,11 +58,11 @@ namespace HospitalProjectTeamThree.Data
         // For more information refer to the documentation:
         // http://msdn.microsoft.com/en-us/data/jj591621.aspx
 
-        public HospitalProjectTeamThreeContext() : base("name=HospitalProjectTeamThreeContext")
+        public HospitalProjectTeamThreeContext() : base(AWSConnector.GetRDSConnectionString())
         {
         }
         public static HospitalProjectTeamThreeContext Create()
-            {
+        {
             return new HospitalProjectTeamThreeContext();
         }
 

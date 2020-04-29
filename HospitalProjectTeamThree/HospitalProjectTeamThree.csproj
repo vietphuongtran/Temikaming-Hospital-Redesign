@@ -195,6 +195,7 @@
     <Compile Include="Controllers\RoleController.cs" />
     <Compile Include="Controllers\RoomController.cs" />
     <Compile Include="Controllers\VolunteerPositionController.cs" />
+    <Compile Include="Data\AWSConnector.cs" />
     <Compile Include="Data\HospitalProjectTeamThreeContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -593,8 +594,6 @@
     <Content Include="Content\images\ui-icons_ffffff_256x240.png" />
     <Content Include="Content\jquery-ui.css" />
     <Content Include="Content\PagedList.css" />
-    <Content Include="ERD\ERDDoctorsBlog.png" />
-    <Content Include="ERD\ERDLiveWaitTimes.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -606,6 +605,8 @@
     <Content Include="Images\Room\private.jpg" />
     <Content Include="Images\Room\public.jpg" />
     <Content Include="Images\Room\semiprivate.jpg" />
+    <Content Include="obj\Debug\CSAutoParameterize\transformed\Views\Web.config" />
+    <Content Include="obj\Debug\CSAutoParameterize\transformed\Web.config" />
     <Content Include="obj\Debug\HospitalProjectTeamThree.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\Package\PackageTmp\bin\Antlr3.Runtime.dll" />
     <Content Include="obj\Debug\Package\PackageTmp\bin\EntityFramework.dll" />
@@ -648,18 +649,11 @@
     <Content Include="obj\Debug\Package\PackageTmp\Content\images\ui-icons_ffffff_256x240.png" />
     <Content Include="obj\Debug\Package\PackageTmp\Content\jquery-ui.css" />
     <Content Include="obj\Debug\Package\PackageTmp\Content\PagedList.css" />
-    <Content Include="obj\Debug\Package\PackageTmp\ERD\ERDDoctorsBlog.png" />
     <Content Include="Scripts\bootstrap-clockpicker.js" />
     <Content Include="Scripts\bootstrap-clockpicker.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="ERD\ERDandWireframes_Vitaliy.docx" />
-    <Content Include="ERD\FeedbackAndStaffDirectoryERD.docx" />
-    <Content Include="ERD\HospitalTeam3_CardAndLogin.docx" />
-    <Content Include="ERD\HospitalTeam3_EventCalenderAndOnlineAppointment.docx" />
     <Content Include="obj\Debug\HospitalProjectTeamThree.csproj.GenerateResource.cache" />
-    <Content Include="obj\Debug\HospitalProjectTeamThree.csprojAssemblyReference.cache" />
-    <Content Include="ERD\Room_Crisis_Vitaliy.docx" />
     <Content Include="Scripts\ckeditor\CHANGES.md" />
     <Content Include="Scripts\ckeditor\LICENSE.md" />
     <Content Include="Scripts\ckeditor\plugins\scayt\CHANGELOG.md" />
@@ -675,6 +669,8 @@
     <Content Include="Scripts\ckeditor\samples\toolbarconfigurator\font\fontello.woff" />
     <Content Include="Scripts\ckeditor\samples\toolbarconfigurator\lib\codemirror\LICENSE" />
     <Content Include="Scripts\ckeditor\skins\moono-lisa\readme.md" />
+    <Content Include="obj\Debug\CSAutoParameterize\original\Views\Web.config" />
+    <Content Include="obj\Debug\CSAutoParameterize\original\Web.config" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\ckeditor\adapters\jquery.js" />
     <Content Include="Scripts\ckeditor\build-config.js" />
@@ -1054,9 +1050,6 @@
     <Content Include="Views\GetWellSoonCard\Show.cshtml" />
     <Content Include="Views\GetWellSoonCard\Update.cshtml" />
     <Content Include="Views\GetWellSoonCard\Index.cshtml" />
-    <Content Include="Wireframes\Job Listing .pdf" />
-    <Content Include="Wireframes\LoginCardWireframe.pptx" />
-    <Content Include="Wireframes\Volunteer Sign Up.pdf" />
     <Content Include="Views\Room\ShowAll.cshtml" />
     <Content Include="Views\Article\ViewArticle.cshtml" />
     <Content Include="Views\Article\List.cshtml" />
@@ -1143,9 +1136,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="ERD\" />
     <Folder Include="Images\Event\" />
     <Folder Include="Images\GetWellCard\" />
+    <Folder Include="obj\Debug\Package\PackageTmp\ERD\" />
     <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="Wireframes\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

@@ -342,5 +342,3 @@ healthchecksdb
 # Ignore APPData folder
 **/AppData/*.mdf
 **/Appdata/*.ldf
-
-HospitalProjectTeamThree/Web.config
